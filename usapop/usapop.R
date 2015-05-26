@@ -115,7 +115,7 @@ pop <- rbind(
 pop <- pop[order(pop$date),]
 row.names(pop) <- NULL
 
-write.csv(pop, "usapop.csv")
+write.csv(pop, "usapop.csv", row.names = F)
 
 ############################################################################ ###
 # Optional: Check against OECD

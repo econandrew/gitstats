@@ -17,6 +17,8 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
+[Previously saved workspace restored]
+
 > ############################################################################ ###
 > # An R program to generate a single consistent historical population series
 > # for the USA, based on multiple US Census Bureau files.
@@ -141,7 +143,7 @@ in method for ‘coerce’ with signature ‘"character","num.with.commas"’: n
 > pop <- pop[order(pop$date),]
 > row.names(pop) <- NULL
 > 
-> write.csv(pop, "usapop.csv")
+> write.csv(pop, "usapop.csv", row.names = F)
 > 
 > ############################################################################ ###
 > # Optional: Check against OECD
@@ -215,4 +217,4 @@ http://stats.oecd.org/restsdmx/sdmx.ashx/GetData/POP_FIVE_HIST/USA.YP99TLL1_ST.T
 > 
 > proc.time()
    user  system elapsed 
-  1.453   0.097   4.694 
+  1.505   0.094   4.503 

@@ -10,3 +10,10 @@ An R program to generate a single consistent historical population series for th
 This, oddly, doesn't seem to exist as a single official data set. My numbers are consistent with http://www.multpl.com/united-states-population/table, but here you have the R code to validate the numbers.
 
 My numbers are also more or less the same as those given by the OECD (this is tested in the code), but don't you prefer having a dataset you can source back to USCB?
+
+The output file is usapop.csv
+
+You can recreate this with
+```R
+R CMD BATCH usapop.R
+``
