@@ -11,9 +11,9 @@ This, oddly, doesn't seem to exist as a single official data set. My numbers are
 
 My numbers are also more or less the same as those given by the OECD (this is tested in the code), but don't you prefer having a dataset you can source back to USCB?
 
-The output file is usapop.csv
+The output file is usapop.csv, useable directly in scripts as https://raw.githubusercontent.com/econandrew/gitstats/master/usapop/usapop.csv
 
 You can recreate this with
 ```R
 R CMD BATCH usapop.R
-``
+```
