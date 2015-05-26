@@ -14,6 +14,6 @@ My numbers are also more or less the same as those given by the OECD (this is te
 The output file is usapop.csv, useable directly in scripts as https://raw.githubusercontent.com/econandrew/gitstats/master/usapop/usapop.csv
 
 You can recreate this with
-```R
+```
 R CMD BATCH usapop.R
 ```
